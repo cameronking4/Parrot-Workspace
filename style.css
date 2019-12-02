@@ -1,0 +1,37 @@
+body {
+    background:
+     linear-gradient(
+      rgba(7, 36, 1, 0.75),
+      rgba(7, 36, 1, 0.75)),
+     url('https://freight.cargo.site/t/original/i/0d1d7c4cf58882039114e7c9c6330a8dfd488cf693d808ba717ab494fea247e9/yoal-desurmont-jqgsM3B9Fpo-unsplash-1.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    position: relative;
+    color: rgba(0, 0, 0, .3);
+    font-size: 13em;
+    align-content: center;
+    justify-content: center;
+}
+h1:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-width: 7em;
+    white-space: nowrap;
+    color: #fff;
+    -webkit-animation: loading 2s linear;
+            animation: loading 2s linear;
+}
+@-webkit-keyframes loading {
+    0% {
+        max-width: 0;
+    }
+}
+@keyframes loading {
+    0% {
+        max-width: 0;
+    }
+}
