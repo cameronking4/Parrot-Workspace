@@ -22,8 +22,8 @@ h1:before {
     max-width: 7em;
     white-space: nowrap;
     color: #fff;
-    -webkit-animation: loading 2s linear;
-            animation: loading 2s linear;
+    -webkit-animation: loading 4s linear;
+            animation: loading 4s linear;
 }
 @-webkit-keyframes loading {
     0% {
